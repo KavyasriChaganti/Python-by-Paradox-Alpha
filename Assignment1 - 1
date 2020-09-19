@@ -1,0 +1,52 @@
+Distinguish between variables,constants and literals with examples?
+VARIABLES :
+variable is a name which is used to refer memory location.
+variable is known as Identifier and used to hold the value.
+In python we don't need to specify the type of variable because
+variable is a Type infer language. Variable names can be a group of 
+both letters and digits, but they have to begin with a letter or 
+underscore. It is recommended to use lowercase letters for variable name.
+Example: Var="kavya"
+         print(var)
+CONSTANTS : 
+A Constant is a type of variable whose value cannot be changed.
+It is helpful to think of constants as containers that hold information 
+which cannot be changed later.In Python, constants are usually declared and 
+assigned in a module. Here, the module is a new file containing variables, 
+functions, etc which is imported to the main file. Inside the module, constants
+are written in all capital letters and underscores separating the words.
+Example : PI=3.14
+          GRAVITY = 9.8
+LITERALS : 
+Literal is a raw data given in a variable or constant. In Python, 
+there are various types of literals :-
+Numeric literals : Numeric Literals are immutable (unchangeable). Numeric 
+literals can belong to 3 different numerical types Integer, Float and Complex.
+Example: a = 0b1010 #Binary Literals
+         b = 100 #Decimal Literal
+         c = 0o310 #Octal Literal
+         d = 0x12c #Hexadecimal Literal
+         #Float Literal
+         float_1 = 10.5
+         float_2 = 1.5e2
+         #Complex Literal
+         x = 3.14j
+         print(a, b, c, d)
+         print(float_1, float_2)
+         print(x, x.imag, x.real)
+String Literal : A string literal is a sequence of characters surrounded by quotes. 
+We can use both single, double or triple quotes for a string. And, a character 
+literal is a single character surrounded by single or double quotes.
+Example : strings = "This is Python"
+          char = "K"
+          multiline_str = """python was Introduced by Guido van Rossum."""
+          unicode = u"\u00dcnic\u00f6de"
+          raw_str = r"raw \n string"
+          print(strings)
+          print(char)
+          print(multiline_str)
+          print(unicode)
+          print(raw_str)
+Boolean Literal : A Boolean literal can have any of the two values: True or False.
+Example : x = (1 == True)
+          y = (1 == False)
